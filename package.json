@@ -1,0 +1,19 @@
+{
+  "name": "trilha-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeGA/Trilha-Node.js-Compasso-UOL-desafio-t-cnico-.git"
+  },
+  "author": "FelipeGA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeGA/Trilha-Node.js-Compasso-UOL-desafio-t-cnico-/issues"
+  },
+  "homepage": "https://github.com/FelipeGA/Trilha-Node.js-Compasso-UOL-desafio-t-cnico-#readme"
+}
