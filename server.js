@@ -18,6 +18,6 @@ app.get('/', (req,res) => {
     res.send("API de registro de clientes.");
 });
 
-//Rotas do GET clientes e cidades
+//Rotas raiz para acesso das entidades clientes e cidades
 app.use('/clientes', clienteRoutes);
 app.use('/cidades', cidadeRoutes);
