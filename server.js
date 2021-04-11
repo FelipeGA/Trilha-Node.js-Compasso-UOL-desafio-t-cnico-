@@ -15,9 +15,9 @@ app.listen(PORT, () => {
 
 //Rota raiz da API
 app.get('/', (req,res) => {
-    res.send("API de registro de clientes.");
+    res.send("API de registro de clientes e cidades.");
 });
 
-//Rotas raiz para acesso das entidades clientes e cidades
+//Rotas raiz para acesso das entidades: clientes e cidades
 app.use('/clientes', clienteRoutes);
 app.use('/cidades', cidadeRoutes);
