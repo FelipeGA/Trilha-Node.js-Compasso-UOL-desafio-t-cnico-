@@ -23,26 +23,26 @@ Para executar a API, primeiramente, instale as dependências com o comando "npm 
 ## Endpoints
 Para realização de cadastro de cidades e clientes:
 
-- https://localhost/3000/cidades
-- https://localhost/3000/clientes
+- POST https://localhost/3000/cidades
+- POST https://localhost/3000/clientes
 
 Para consulta de clientes e cidades por nome:
 
-- https://localhost/3000/cidades/nome/{nome}
-- https://localhost/3000/clientes/nome/{nome}
+- GET https://localhost/3000/cidades/nome/{nome}
+- GET https://localhost/3000/clientes/nome/{nome}
 
 Para consulta de clientes por Id:
 
-- https://localhost/3000/clientes/id/{id}
+- GET https://localhost/3000/clientes/id/{id}
 
 Para consulta de cidades por estado:
 
-- https://localhost/3000/cidades/estado/{estado}
+- GET https://localhost/3000/cidades/estado/{estado}
 
 Para remover algum cliente:
 
-- https://localhost/3000/clientes/{id}
+- DELETE https://localhost/3000/clientes/{id}
 
 Para alterar o nome de algum cliente
 
-- https://localhost/3000/clientes/
+- PUT https://localhost/3000/clientes/
